@@ -27,6 +27,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className=" w-full bg-white h-16 text-4xl text-zinc-800 flex justify-center items-center">
+        Namita Mehra
+      </header>
         {children}
       </body>
     </html>
